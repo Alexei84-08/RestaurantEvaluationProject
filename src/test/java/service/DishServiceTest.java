@@ -21,6 +21,12 @@ class DishServiceTest extends AbstractServiceTest {
 
     @Test
     void get() {
+        assertThat(dishService.get(DISH118.getId())).isEqualToIgnoringGivenFields(DISH118, "restaurant");
+    }
+
+    @Test
+    void getNotFound() {
+        assertThrows(NotFoundException.class, () -> dishService.get(NO_DISH));
     }
 
     @Test
