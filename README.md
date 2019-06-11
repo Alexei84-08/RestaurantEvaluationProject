@@ -49,7 +49,9 @@ Maven, H2 database, Spring Security, Spring MVC, Spring Data JPA, Hibernate, SLF
   * Скачать прект
   * Распаковать прект в любую папку
   * Открыть папку с проектом в командной строке
-  * В командной строке выполнить команду mvn package
-  * В командной строке выполнить команду java -jar target/dependency/webapp-runner.jar target/*.war
+  * В командной строке выполнить команду "mvn package"
+  * В командной строке выполнить команду "java -jar target/dependency/webapp-runner.jar target/*.war"
 
 Откройте в браузере адрес http://localhost:8080/
+
+Login - "admin", password - "asd"
